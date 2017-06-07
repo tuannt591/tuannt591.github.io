@@ -83,5 +83,8 @@
         });
     });
 
+ 	// ---hiệu ứng loading---
+	TweenMax.fromTo($('.main'),1,{y:300,opacity:0},{y:0,opacity:1})    
+
 })  
  

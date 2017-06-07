@@ -1,11 +1,5 @@
 html,body{width: 100%; height: 100%}
 body{font-family: 'Roboto', sans-serif;background: url(images/parallax-bg.jpg) no-repeat center fixed;background-size: cover}
-.main{opacity: 0;animation: dilen 1.5s forwards; animation-delay: 1s}
-@-webkit-keyframes dilen{
-	0%{opacity: 0; transform: translateY(200px);}
-	100%{opacity: 1; transform: translateY(0px)}
-}
-
 h1,h2,h3,h4,h5,h6,a{color: #394e58;margin: 0}
 p,span{color:#7F7F7F; margin: 0}
 p {font-size: 14px;line-height: 25px}
