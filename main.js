@@ -67,24 +67,20 @@
  	$('.img-link').fancybox();
 
  	// ---scroll-skill---
- 	$(window).scroll(function(event) {
+ 	$(window).scroll(function() {
  			$('.percent-photoshop').addClass('_photoshop')
  			$('.percent-illustrator').addClass('_illustrator')
  			$('.percent-html').addClass('_html')
  			$('.percent-graphic').addClass('_graphic')
  			$('.percent-web').addClass('_web')
- 			$('.percent-bootstrap').addClass('_bootstrap')		
+ 			$('.percent-bootstrap').addClass('_bootstrap')
+
+ 					
  	});
-
+				
  	// ---counter-skill---
- 	jQuery(document).ready(function( $ ) {
-        $('.skill .value').counterUp({           
-            time: 2500
-        });
-    });
-
- 	// ---hiệu ứng loading---
-	TweenMax.fromTo($('.main'),1,{y:300,opacity:0},{y:0,opacity:1})    
-
+ 	$('.skill .value').counterUp({           
+        time: 3000
+    });	 	
 })  
  

@@ -3,7 +3,11 @@ body{font-family: 'Roboto', sans-serif;background: url(images/parallax-bg.jpg) n
 h1,h2,h3,h4,h5,h6,a{color: #394e58;margin: 0}
 p,span{color:#7F7F7F; margin: 0}
 p {font-size: 14px;line-height: 25px}
-
+.main{animation: dilen 1.5s forwards; animation-delay: 1s;opacity: 0}
+@-webkit-keyframes dilen{
+	0%{opacity: 0;transform: translateY(300px);}
+	100%{opacity: 1;transform: translateY(0px);}
+}
 /*---social-icons---*/
 .social-icons a {
     font-size: 14px;
@@ -15,7 +19,7 @@ p {font-size: 14px;line-height: 25px}
     transition: 0.4s;
     display: inline-block
 }
-.social-icons a:hover{color: white}
+.social-icons a:hover{color: white;animation: zoomto 1s forwards}
 .social-icons .facebook:hover{background: #4267b2;border-color: #4267b2}
 .social-icons .behance:hover{background: #005cff;border-color: #005cff}
 .social-icons .twitter:hover{background: #1da1f2;border-color: #1da1f2}
@@ -31,7 +35,17 @@ p {font-size: 14px;line-height: 25px}
     border-radius: 30px;
     transition: 0.3s
 }
-.porfolio-download:hover {color: white;background: #394e58;text-decoration: none}
+.porfolio-download:hover {
+	color: white;
+	background: #394e58;
+	text-decoration: none;
+	animation: zoomto 1s forwards
+}
+@-webkit-keyframes zoomto{
+	0%{transform: scale(1);}
+	50%{transform: scale(1.2);}
+	100%{transform: scale(1);}
+}
 /*---END porfolio-download---*/
 
 /*---profile---*/
@@ -39,6 +53,7 @@ p {font-size: 14px;line-height: 25px}
 .profile .profile-image img{width: 100%}
 .profile-info .name-job {border-bottom: 1px dashed #b1b1b1}
 .profile-info .name-job h1 {font-size: 20px;font-weight: 900}
+.profile-info .name-job span {font-weight: 600}
 /*---END profile---*/
 
 /*---navbar---*/
