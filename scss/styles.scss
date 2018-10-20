@@ -1,0 +1,324 @@
+html,body{width: 100%; height: 100%}
+body{font-family: 'Roboto', sans-serif;background: url(images/parallax-bg.jpg) no-repeat center fixed;background-size: cover}
+h1,h2,h3,h4,h5,h6,a{color: #394e58;margin: 0}
+p,span{color:#7F7F7F; margin: 0}
+p {font-size: 14px;line-height: 25px}
+.main{animation: dilen 1.5s forwards; animation-delay: 1s;opacity: 0}
+@-webkit-keyframes dilen{
+    0%{opacity: 0;transform: translateY(300px);}
+    100%{opacity: 1;transform: translateY(0px);}
+}
+.mt-5{margin-top: 5px}
+.mt-10{margin-top: 10px}
+.mt-15{margin-top: 15px}
+.mt-20{margin-top: 20px}
+.mt-25{margin-top: 25px}
+.mt-30{margin-top: 30px}
+.mt-35{margin-top: 35px}
+.mt-40{margin-top: 40px}
+.mt-45{margin-top: 45px}
+.mt-50{margin-top: 50px}
+
+.mb-5{margin-bottom: 5px}
+.mb-10{margin-bottom: 10px}
+.mb-15{margin-bottom: 15px}
+.mb-20{margin-bottom: 20px}
+.mb-25{margin-bottom: 25px}
+.mb-30{margin-bottom: 30px}
+.mb-35{margin-bottom: 35px}
+.mb-40{margin-bottom: 40px}
+.mb-45{margin-bottom: 45px}
+.mb-50{margin-bottom: 50px}
+
+.ml-5{margin-left: 5px}
+.ml-10{margin-left: 10px}
+.ml-15{margin-left: 15px}
+.ml-20{margin-left: 20px}
+.ml-25{margin-left: 25px}
+.ml-30{margin-left: 30px}
+.ml-35{margin-left: 35px}
+.ml-40{margin-left: 40px}
+.ml-45{margin-left: 45px}
+.ml-50{margin-left: 50px}
+
+.mr-5{margin-right: 5px}
+.mr-10{margin-right: 10px}
+.mr-15{margin-right: 15px}
+.mr-20{margin-right: 20px}
+.mr-25{margin-right: 25px}
+.mr-30{margin-right: 30px}
+.mr-35{margin-right: 35px}
+.mr-40{margin-right: 40px}
+.mr-45{margin-right: 45px}
+.mr-50{margin-right: 50px}
+
+/*---margin---*/
+
+/*---padding---*/
+
+.pt-5{padding-top: 5px}
+.pt-10{padding-top: 10px}
+.pt-15{padding-top: 15px}
+.pt-20{padding-top: 20px}
+.pt-25{padding-top: 25px}
+.pt-30{padding-top: 30px}
+.pt-35{padding-top: 35px}
+.pt-40{padding-top: 40px}
+.pt-45{padding-top: 45px}
+.pt-50{padding-top: 50px}
+
+.pb-5{padding-bottom: 5px}
+.pb-10{padding-bottom: 10px}
+.pb-15{padding-bottom: 15px}
+.pb-20{padding-bottom: 20px}
+.pb-25{padding-bottom: 25px}
+.pb-30{padding-bottom: 30px}
+.pb-35{padding-bottom: 35px}
+.pb-40{padding-bottom: 40px}
+.pb-45{padding-bottom: 45px}
+.pb-50{padding-bottom: 50px}
+
+.pl-5{padding-left: 5px}
+.pl-10{padding-left: 10px}
+.pl-15{padding-left: 15px}
+.pl-20{padding-left: 20px}
+.pl-25{padding-left: 25px}
+.pl-30{padding-left: 30px}
+.pl-35{padding-left: 35px}
+.pl-40{padding-left: 40px}
+.pl-45{padding-left: 45px}
+.pl-50{padding-left: 50px}
+
+.pr-5{padding-right: 5px}
+.pr-10{padding-right: 10px}
+.pr-15{padding-right: 15px}
+.pr-20{padding-right: 20px}
+.pr-25{padding-right: 25px}
+.pr-30{padding-right: 30px}
+.pr-35{padding-right: 35px}
+.pr-40{padding-right: 40px}
+.pr-45{padding-right: 45px}
+.pr-50{padding-right: 50px}
+
+/*---social-icons---*/
+.social-icons a {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #394e58;
+    border-radius: 50%;
+    transition: 0.4s;
+    display: inline-block
+}
+.social-icons a:hover{color: white;animation: zoomto 1s forwards}
+.social-icons .facebook:hover{background: #4267b2;border-color: #4267b2}
+.social-icons .behance:hover{background: #005cff;border-color: #005cff}
+.social-icons .twitter:hover{background: #1da1f2;border-color: #1da1f2}
+.social-icons .github:hover{background: #913399;border-color: #913399}
+/*---END social-icons---*/
+
+/*---porfolio-download---*/
+.porfolio-download {
+    font-size: 14px;
+    color: #394e58;
+    border: 1px solid #394e58;
+    display: inline-block;
+    border-radius: 30px;
+    transition: 0.3s
+}
+.porfolio-download:hover {
+    color: white;
+    background: #394e58;
+    text-decoration: none;
+    animation: zoomto 1s forwards
+}
+@-webkit-keyframes zoomto{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+/*---END porfolio-download---*/
+
+/*---profile---*/
+/*.profile{background: white}*/
+.profile .profile-image img{width: 100%}
+.profile .profile-info{background: white}
+.profile .profile-info .name-job {border-bottom: 1px dashed #b1b1b1}
+.profile .profile-info .name-job h1 {font-size: 20px;font-weight: 900}
+.profile .profile-info .name-job span {font-weight: 600}
+/*---END profile---*/
+
+/*---navbar---*/
+.navbar {background: white;border-radius: 0;padding: 0;height: 70px;line-height: 70px}
+.navbar .navbar-nav {display: inline-block;height: 100%}
+.navbar .navbar-nav .nav-item {margin: 0;height: 100%}
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.3s;
+    padding-bottom: 0;
+    padding-top: 0;
+    border-right: 1px dashed #b1b1b1;
+    border-bottom: 3px solid transparent;
+    height: 100%
+}
+.navbar .navbar-nav .nav-item.active .nav-link {border-bottom: 3px solid #ffa60a; color: #ffa60a}
+.navbar .navbar-nav .nav-item:nth-child(4) .nav-link {border-right: none}
+.navbar .navbar-nav .nav-item .nav-link:hover{color: #ffa60a; border-bottom-color: #ffa60a}
+/*---END navbar---*/
+
+/*---content---*/
+.content {width: 100%;position: relative}
+.content .content-detail{position: absolute;z-index: 1;display: none;background: white;width: 100%}
+.content .content-detail.hienthi{z-index: 2;display: initial;animation: hienra 0.5s forwards}
+@-webkit-keyframes hienra{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+/*---END content---*/
+
+/*---about-page---*/
+.title {border-bottom: 1px dashed #b1b1b1}
+.title h5 {font-size: 25px;font-weight: 600}
+
+.about-info{display: inline-block; border-bottom: 1px dashed #b1b1b1}
+.about-info ul li {width: 33%;float: left;list-style: none;font-size: 14px;line-height: 30px;font-weight: 500;color: #394e58}
+.about-info ul li span {display: block}
+.about-info ul li span a{color: #7f7f7f}
+
+.about-skill {background: #eaeaea; display: inline-block}
+.about-skill ul li{list-style: none; width: 50%;float: left}
+.about-skill .skill span {color: #394e58;font-weight: 600;display: block}
+.about-skill .skill .value:after {content: "%"}
+.about-skill .skill .progress {width: 100%;height: 10px;border: 1px solid #394e58;border-radius: 30px;position: relative}
+.about-skill .skill .progress .percent {background: #394e58;height: 100%;position: absolute;top: 0;opacity: 0}
+
+.about-skill .skill .progress .percent-photoshop._photoshop{width: 85%;animation: daira1 3s forwards}
+@-webkit-keyframes daira1{
+    0%{width: 0%;opacity: 0}
+    100%{width: 85%;opacity: 1}
+}
+.about-skill .skill .progress .percent-illustrator._illustrator{width: 80%;animation: daira2 3s forwards}
+@-webkit-keyframes daira2{
+    0%{width: 0%;opacity: 0}
+    100%{width: 80%;opacity: 1}
+}
+.about-skill .skill .progress .percent-html._html{width: 90%;animation: daira3 3s forwards}
+@-webkit-keyframes daira3{
+    0%{width: 0%;opacity: 0}
+    100%{width: 90%;opacity: 1}
+}
+.about-skill .skill .progress .percent-bootstrap._bootstrap{width: 90%;animation: daira4 3s forwards}
+@-webkit-keyframes daira4{
+    0%{width: 0%;opacity: 0}
+    100%{width: 90%;opacity: 1}
+}
+.about-skill .skill .progress .percent-graphic._graphic{width: 70%;animation: daira5 3s forwards}
+@-webkit-keyframes daira5{
+    0%{width: 0%;opacity: 0}
+    100%{width: 70%;opacity: 1}
+}
+.about-skill .skill .progress .percent-web._web{width: 85%;animation: daira6 3s forwards}
+@-webkit-keyframes daira6{
+    0%{width: 0%;opacity: 0}
+    100%{width: 85%;opacity: 1}
+}
+/*---END about-page---*/
+
+/*---resume-page---*/
+.resume-line {height: 50px;border-left: 3px solid #d0d0d0}
+.resume-icon {color: white;width: 50px;height: 50px;line-height: 50px;background: #394e58;border-radius: 50%}
+.resume-text {border-left: 3px solid #d0d0d0;position: relative}
+.resume-text span{color: #394e58}
+.resume-text h5:before {content: "";width: 15px;height: 15px;border-radius: 50%;background: #394e58;position: absolute;left: -9px}
+.resume-text.no-line{border-left-color: transparent}
+/*---END resume-page---*/
+
+/*---porfolio-page---*/
+.porfolio-filter ul {display: inline-block;margin: 0}
+.porfolio-filter ul li {list-style: none;float: left;cursor: pointer;font-size: 15px;font-weight: 500;color: #7f7f7f;transition: 0.3s}
+.porfolio-filter ul li:hover {color: #394e58}
+.porfolio-filter ul li.active{color: #394e58}
+
+.porfolio-item .single-item {width: 100%;height: 183px;position: relative;overflow: hidden}
+.porfolio-item .single-item .layer1 {position: absolute;z-index: 1;width: 100%;height: 100%}
+.porfolio-item .single-item .layer2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.58);
+    z-index: 2;
+    opacity: 0;
+    transition: 0.5s
+}
+.porfolio-item .single-item .layer3 {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: 0.5s
+}
+.porfolio-item .single-item .layer3 h5 {font-size: 18px;color: white}
+.porfolio-item .single-item .layer3 span {font-size: 14px;color: white;display: block}
+.porfolio-item .single-item .layer3 a {
+    color: white;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    line-height: 40px;
+    transition: 0.5s;
+    opacity: 0
+}
+.porfolio-item .single-item .layer3 a:hover {background: white;color: #394e58}
+.porfolio-item .single-item:hover .layer2,.porfolio-item .single-item:hover .layer3{opacity: 1}
+.porfolio-item .single-item:hover .layer3 a.link{animation: dilen 1s forwards}
+.porfolio-item .single-item:hover .layer3 a.img-link{animation: dilen 1s forwards;animation-delay: 0.3s}
+@-webkit-keyframes dilen{
+    0%{transform: translateY(200px);opacity: 0}
+    100%{transform: translateY(0px);opacity: 1}
+}
+/*---END porfolio-page---*/
+
+/*---contact-page---*/
+
+.contact-info button {background: transparent;font-size: 14px;color: #394e58;border: 1px solid #394e58;transition: 0.3s}
+.contact-info button:hover {background: #394e58;color: white}
+.contact-info input,.contact-info textarea {width: 100%; font-size: 14px}
+
+.contact-info ul li {list-style: none;font-size: 14px;color: #394e58;font-weight: 500}
+.contact-info ul li span,.contact-info ul li a {color: #7f7f7f}
+.contact-info ul li span {display: initial}
+/*---END contact-page---*/
+
+/*---footer---*/
+footer {border-top: 1px dashed #b1b1b1}
+footer p {font-size: 14px}
+footer p span {color: #394e58;font-weight: 500}
+/*---END footer---*/
+
+*{margin: 0; padding: 0;}
+
+
+/*---responsive---*/
+/*mobile*/
+@media (max-width: 736px){
+    .about-info ul li{width: 100%}
+    .about-skill ul li{width: 100%}
+    .navbar .navbar-nav .nav-item .nav-link{font-size: 10px; padding: 0 10px}
+    .navbar{margin-top: 30px}
+
+
+}
+/*tablet*/
+@media (max-width: 1024px){
+    .profile-image{width: 50%; margin: auto}
+}
+
+/*END mobile*/
+
